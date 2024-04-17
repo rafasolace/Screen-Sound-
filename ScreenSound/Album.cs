@@ -17,7 +17,7 @@ Console.WriteLine($"Lista de músicas do álbum {Nome}:\n");
         {
             Console.WriteLine($"Música: {musica.Nome}");
         }
-        Console.WriteLine($"\nPara ouvir este álbum inteiro você precisa de {DuracaoTotal}");
+        Console.WriteLine($"\nPara ouvir este álbum inteiro você precisa de {DuracaoTotal} segundos");
     }
 
 }
