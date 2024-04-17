@@ -1,18 +1,15 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "Moonlight";
-musica1.artista = "Ariana Grande";
-musica1.duracao = 202;
-musica1.Disponivel = true;
-Console.WriteLine(musica1.Disponivel);
+﻿Album albumDaArianaGrande = new Album();
+albumDaArianaGrande.Nome = "Eternal Sunshine";
+
+Musica musica1 = new Musica();
+musica1.Nome = "intro (end of the word)";
+musica1.Duracao = 132;
 
 Musica musica2 = new Musica();
-musica2.nome = "Void";
-musica2.artista = "Melanie Marinez";
-musica1.duracao = 247;
-musica2.Disponivel = false;
+musica2.Nome = "the boy is mine";
+musica2.Duracao = 253;
 
+albumDaArianaGrande.AdicionarMusica(musica1);
+albumDaArianaGrande.AdicionarMusica(musica2);
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
-
-
+albumDaArianaGrande.ExibirMusicaDoAlbum();

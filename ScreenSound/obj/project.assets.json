@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\ScreenSound1\\Screen-Sound-\\ScreenSound\\ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "C:\\Users\\Rafael\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectPath": "C:\\Users\\Rafael\\source\\repos\\ScreenSound1\\Screen-Sound-\\ScreenSound\\ScreenSound.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\source\\repos\\ScreenSound\\ScreenSound\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\source\\repos\\ScreenSound1\\Screen-Sound-\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
