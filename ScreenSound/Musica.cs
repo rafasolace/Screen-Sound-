@@ -1,11 +1,18 @@
 ﻿class Musica //Essa classe serve para definir "dados e atributos" presentes nas variaveis Musica
 {
-    public string Nome { get; set; }
-    public string Artista { get; set; }
+
+    public Musica(Banda artista, string nome)
+    {
+        Artista = artista;
+        Nome = nome;
+    }
+
+    public string Nome { get; }
+    public Banda Artista { get; }
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
     public string DescricaoResumida
-    //Versão LAMBDA resumida = public string DescricaoResumida => return $"A música {Nome} pertence à arista {Artista}"; 
+    //Versão LAMBDA resumida: public string DescricaoResumida => return $"A música {Nome} pertence à arista {Artista}"; 
     {
         get
         {
@@ -16,7 +23,7 @@
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome:{Nome}");
-        Console.WriteLine($"Artista: {Artista}"); //Esse void é o "método" 
+        Console.WriteLine($"Artista: {Artista.Nome}"); //Esse void é o "método" 
         Console.WriteLine($"Duração: {Duracao}");
         if (Disponivel)
         {
